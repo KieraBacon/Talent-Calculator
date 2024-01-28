@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61aaaee6e24a4945b01991a86d3bb489, type: 3}
+  m_Name: Fire
+  m_EditorClassIdentifier: 
+  _talents:
+  - rid: -2
+  - rid: 7867506220140593156
+  - rid: 7867506220140593153
+  - rid: -2
+  - rid: 7867506220140593152
+  - rid: 7867506220140593154
+  - rid: 7867506220140593155
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 7867506220140593152
+      type: {class: MultiTalentIndependentNode, ns: SkillSystem.ScriptableObjects, asm: Assembly-CSharp}
+      data:
+        _name: 
+        _pointsRequirement: 5
+        _talents:
+        - {fileID: 11400000, guid: 110820ece363a4941a6db2d8584ff843, type: 2}
+        - {fileID: 11400000, guid: 4ddab47a26f0028478d687db951215a4, type: 2}
+        - {fileID: 11400000, guid: cfea90ae026bf3c46815eb4541727c02, type: 2}
+        - {fileID: 11400000, guid: 1002b106b73e06f4c99a7686587c5b3e, type: 2}
+        - {fileID: 11400000, guid: f6159eec1a8387a4fba0ae26a4b8db86, type: 2}
+    - rid: 7867506220140593153
+      type: {class: MultiTalentIndependentNode, ns: SkillSystem.ScriptableObjects, asm: Assembly-CSharp}
+      data:
+        _name: 
+        _pointsRequirement: 0
+        _talents:
+        - {fileID: 11400000, guid: 90e71d8da1cdf724d8d04f01f32a7d7d, type: 2}
+        - {fileID: 11400000, guid: 30d5f3e77acad0d4b8dae4dd3c0dabf6, type: 2}
+        - {fileID: 11400000, guid: 3822e04e065309e4f99a62cec4b3d881, type: 2}
+        - {fileID: 11400000, guid: aefb155e1d58ec242b87daf7919109a2, type: 2}
+        - {fileID: 11400000, guid: 848386bae4fdef14381858b61e9eb654, type: 2}
+    - rid: 7867506220140593154
+      type: {class: OneTalentIndependentNode, ns: SkillSystem.ScriptableObjects, asm: Assembly-CSharp}
+      data:
+        _pointsRequirement: 5
+        _talent: {fileID: 11400000, guid: 4ddf803079fb79f49a5d64352da6f67f, type: 2}
+    - rid: 7867506220140593155
+      type: {class: OneTalentDependentNode, ns: SkillSystem.ScriptableObjects, asm: Assembly-CSharp}
+      data:
+        _pointsRequirement: 3
+        _prerequisite: {fileID: 11400000, guid: 3822e04e065309e4f99a62cec4b3d881, type: 2}
+        _talent: {fileID: 11400000, guid: 4ddf803079fb79f49a5d64352da6f67f, type: 2}
+    - rid: 7867506220140593156
+      type: {class: MultiTalentIndependentNode, ns: SkillSystem.ScriptableObjects, asm: Assembly-CSharp}
+      data:
+        _name: 
+        _pointsRequirement: 0
+        _talents:
+        - {fileID: 11400000, guid: a77e430a7bc0aa74fb6bcfc1abec3502, type: 2}
+        - {fileID: 11400000, guid: 7ce8e701ed7d4ed47a0b7ba8c6f505c3, type: 2}
+        - {fileID: 11400000, guid: 791d28c2b66f318418b0bb2cbfdfd6b8, type: 2}
+        - {fileID: 11400000, guid: bd1828b30ef3eb7439a2c5d6a3f3e962, type: 2}
+        - {fileID: 11400000, guid: 0088b16947c5452448470fea9caff7f3, type: 2}

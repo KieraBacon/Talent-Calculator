@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68b331c03bc9506409b3aa228432ca6d, type: 3}
+  m_Name: Silent Apparition
+  m_EditorClassIdentifier: 
+  _talent:
+    Name: Silent Apparition
+    Sprite: {fileID: 21300000, guid: 3238dca1e9ea9fb4aa64b28298ba6dbd, type: 3}
+    Description: Conjures a Silent Apparition to attack your target for {0} {1} damage
+      every {2} sec for {3} sec.
+    Values:
+    - rid: 7867506204042330112
+    - rid: 7867506204042330113
+    - rid: 7867506204042330114
+    - rid: 7867506204042330115
+  references:
+    version: 2
+    RefIds:
+    - rid: 7867506204042330112
+      type: {class: ValueRange, ns: SkillSystem.SkillValues, asm: Assembly-CSharp}
+      data:
+        _firstValue: 8
+        _secondValue: 12
+    - rid: 7867506204042330113
+      type: {class: School, ns: SkillSystem.SkillValues, asm: Assembly-CSharp}
+      data:
+        _schoolObject: {fileID: 11400000, guid: 977176460e3e4ef41adba3749f0c5cda, type: 2}
+    - rid: 7867506204042330114
+      type: {class: SingleValue, ns: SkillSystem.SkillValues, asm: Assembly-CSharp}
+      data:
+        Value: 2
+    - rid: 7867506204042330115
+      type: {class: SingleValue, ns: SkillSystem.SkillValues, asm: Assembly-CSharp}
+      data:
+        Value: 12
